@@ -1,19 +1,21 @@
+import Layout from '../../components/layout'
 import Head from 'next/head'
-import Link from 'next/link'
+import utilStyles from '../../styles/utils.module.css'
 
-export default function FirstPost() {
-    return (
-    <>
-    <Head>
+export default function Experiments() {
+  return (
+    <Layout>
+      <Head>
         <title>Experiments</title>
-    </Head>
-
-    <h1>This is are experiments</h1> 
-    <h2>
-        <Link href = '/'>
-            <a>Back to home</a>
-        </Link>
-    </h2>
-    </> 
-    )
+      </Head>
+      <article>
+        <h1 className={utilStyles.headingXl}>Experiments</h1>
+        <div className={utilStyles.lightText}>
+            <h2>A test</h2>
+            <p>The search box should be below</p>
+        </div>
+      </article>
+    </Layout>
+  )
 }
+
