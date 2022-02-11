@@ -15,7 +15,7 @@ export default function Home({ allPostsData }) {
         <p>
           Hello, I’m <strong>Bernard</strong>. I’m build software and manage technology. 
           You can contact me on{' '}
-          <a href="https://twitter.com/chibicode">email</a>.
+          <a href="https://www.linkedin.com/in/bernard-lee-57042b50/">LinkedIn</a>.
         </p>
 
         <p>
