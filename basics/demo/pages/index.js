@@ -13,18 +13,11 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, I’m <strong>Bernard</strong>. I build software and manage technology. 
+          Hello, I’m <strong>Bernard</strong>. I build software and technology.
           You can contact me on{' '}
           <a href="https://www.linkedin.com/in/bernard-lee-57042b50/">LinkedIn</a>.
         </p>
 
-        <p>
-          All experiments are here. {' '}
-          <Link href="/posts/first-post"><a>Learn</a></Link>.
-        </p>
-
-      </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
